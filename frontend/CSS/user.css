@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 100vh; 
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff9f00;  
+}
+
+#searchBox {
+    padding: 12px 20px;  
+    font-size: 1.2rem;   
+    width: 66%;        
+    border: 1px solid #ff9f00; 
+    margin-bottom: 20px; 
+}
+
+
+#bookmarks {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+#resultsTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#resultsTable th, #resultsTable td {
+    border: 1px solid #ff9f00;
+    padding: 10px;
+    text-align: left;
+}
+
+#resultsTable th {
+    background-color: #ff9f00;
+    color: black;
+}
